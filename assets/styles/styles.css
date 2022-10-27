@@ -1,0 +1,52 @@
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    line-height: 1.5;
+    background-color: #f1f1f1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main-header {
+    margin: 8px;
+    color: #000;
+    font-size: 1rem; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%; 
+    width: 340px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 50px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  cursor: pointer;
+  
+}
+
+li a {
+  display: grid;
+  width: 280px;
+  color: #222;
+  text-decoration: none;
+  padding: 23px;
+  font-size: larger;
+  text-align: left;
+}
+
+.menubar{
+    height: 100%;
+    border-right: solid 3px #333;
+
+}
+
+h1 {
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 1rem;
+}
