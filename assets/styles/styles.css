@@ -3,7 +3,8 @@ body {
     line-height: 1.3;
     background-color: #fff9f9;
     margin-left: 400px;
-    font-size: 24px;
+    font-size: 18px;
+    margin-right: 2rem;
 }
 
 * {
@@ -12,7 +13,7 @@ body {
 }
 
 #main-header {
-    margin: 8px;
+    margin: 1px;
     color: #000;
     font-size: 1rem; 
     position: fixed;
@@ -23,9 +24,17 @@ body {
     text-align: center;
 }
 
+header {
+  color: black;
+  margin: 10px;
+  text-align: left;
+  font-size: 1.8em;
+  font-weight: thin;
+}
+
 #items {
   list-style-type: none;
-  margin: 5px;
+  margin: 3.5px;
   overflow: auto;
   overflow-x: hidden;
   cursor: pointer;
@@ -40,9 +49,10 @@ li a {
   padding: 21px;
   font-size: larger;
   text-align: left;
+  cursor: pointer;
 }
 
-.menubar{
+#menubar{
     height: 100%;
     border-right: solid 3px #333;
 
@@ -54,28 +64,28 @@ h1 {
     padding: 1rem;
 }
 
-#main-body {
+#main-intoduction {
   position: absolute;
   margin-left: 320px;
   padding: 2rem 1rem;
 }
 
-#main-body .intro-section header {
+#main-intoduction .intro-section header {
   font-size: 2rem;
   padding: 1rem 0;
 }
 
-#main-body .intro-section .main-article {
+#main-introduction .intro-section .main-article {
     padding-left: 1.5rem;
     margin-bottom: .5rem;
     color: #222;
   }
   
-  #main-body .into-section .main-article p {
+  #main-introduction .into-section .main-article p {
     margin-bottom: 1rem;
   }
   
-  #main-body .intro-section .main-article #items {
+  #main-introduction .intro-section .main-article #items {
     margin: 1.3rem 0 0 1.2rem;
   }
   
@@ -83,7 +93,21 @@ h1 {
     margin-bottom: 1rem;
   }
 
+ul {
+  margin-left: 2rem;
+}
 
+#ref {
+  text-decoration: none;
+}
 
-
+code {
+  display: block;
+  text-align: left;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #f0e9df;
+}
   
